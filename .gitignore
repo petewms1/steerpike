@@ -76,3 +76,6 @@ db/*.sqlite3
 
 # Aptana Studio file
 .project
+
+# Rbenv file
+.rbenv-version

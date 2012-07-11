@@ -37,10 +37,10 @@ gem "guard-bundler", ">= 0.1.3", :group => :development
 gem "guard-rails", ">= 0.0.3", :group => :development
 gem "guard-rspec", ">= 0.4.3", :group => :development
 gem "guard-cucumber", ">= 0.6.1", :group => :development
-#gem "bson_ext", ">= 1.6.2"
-gem 'moped'
-#gem "mongoid", "~> 3.0.0"
-#gem "mongoid", ">= 2.4.8"
+gem "bson_ext", ">= 1.6.2"
+# Gems for mongoid 3.0
+# gem 'moped'
+# gem "mongoid", "~> 3.0.0"
 gem "mongoid", "~> 2.4.8"
 gem "mongoid-history", ">= 0.2.1"
 gem "mongoid_auto_increment"
