@@ -1,4 +1,8 @@
 Steerpike::Application.routes.draw do
+  resources :articles do
+    resources :comments
+  end
+
   authenticated :user do
     root :to => 'home#index'
   end
