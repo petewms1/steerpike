@@ -11,7 +11,8 @@ gem 'jquery-rails'
 gem "haml", ">= 3.1.4"
 gem "haml-rails", ">= 0.3.4", :group => :development
 gem "rspec-rails", ">= 2.9.0.rc2", :group => [:development, :test]
-gem "database_cleaner", ">= 0.7.2", :group => :test
+#gem "database_cleaner", ">= 0.7.2", :group => :test
+gem "database_cleaner", ">= 0.8.0", :group => :test
 gem "mongoid-rspec", ">= 1.4.4", :group => :test
 gem "machinist", :group => :test
 gem "factory_girl_rails", ">= 3.1.0", :group => [:development, :test]
@@ -36,8 +37,11 @@ gem "guard-bundler", ">= 0.1.3", :group => :development
 gem "guard-rails", ">= 0.0.3", :group => :development
 gem "guard-rspec", ">= 0.4.3", :group => :development
 gem "guard-cucumber", ">= 0.6.1", :group => :development
-gem "bson_ext", ">= 1.6.2"
-gem "mongoid", ">= 2.4.8"
+#gem "bson_ext", ">= 1.6.2"
+gem 'moped'
+#gem "mongoid", "~> 3.0.0"
+#gem "mongoid", ">= 2.4.8"
+gem "mongoid", "~> 2.4.8"
 gem "mongoid-history", ">= 0.2.1"
 gem "mongoid_auto_increment"
 gem "devise", ">= 2.1.0.rc"

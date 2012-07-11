@@ -1,10 +1,20 @@
 development:
   host: localhost
   database: steerpike_development
+  sessions:
+    default:
+      database: mongoid
+      hosts:
+        - localhost:27017
 
 test:
   host: localhost
   database: steerpike_test
+  sessions:
+    default:
+      database: mongoid
+      hosts:
+        - localhost:27017
 
 # set these environment variables on your prod server
 production:
