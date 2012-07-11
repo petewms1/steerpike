@@ -38,6 +38,8 @@ gem "guard-rspec", ">= 0.4.3", :group => :development
 gem "guard-cucumber", ">= 0.6.1", :group => :development
 gem "bson_ext", ">= 1.6.2"
 gem "mongoid", ">= 2.4.8"
+gem "mongoid-history", ">= 0.2.1"
+gem "mongoid_auto_increment"
 gem "devise", ">= 2.1.0.rc"
 gem "bootstrap-sass", ">= 2.0.1"
 gem "simple_form"
