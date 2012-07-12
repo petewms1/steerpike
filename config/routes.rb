@@ -1,4 +1,6 @@
 Steerpike::Application.routes.draw do
+  resources :authors
+
   resources :articles do
     resources :comments
   end

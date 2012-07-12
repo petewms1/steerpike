@@ -3,8 +3,9 @@
 
   .form-inputs
     = f.input :name
-    = f.input :content
+    = f.text_area :content
     = f.date_select :published_on
+    = f.collection_select :author_id, Author.all, :id, :name
 
   .form-actions
     = f.button :submit
